@@ -5,10 +5,10 @@ DEMO Openshift 4 Multicluster
 ## Introduction:
 
 * In the next demo will see: 
-  * Deploy two Clusters, named OCPA and OCPB, Openshift 4.11 using Terraform on VMware with UPI
+  * Deploy two Clusters, named OCPA and OCPB, Openshift 4.11 using Terraform on VMware with UPI.
   * Deploy Red Hat Advanced Cluster Management Foundations in OCPA Clusters.
   * Add OCPB cluster as managed cluster.
-  * Set up Submariner in Red Hat Advanced Cluster Management for Kubernetes between both cluster
+  * Set up Submariner in Red Hat Advanced Cluster Management for Kubernetes between both cluster.
 
 
 ![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/Architecture.png)
