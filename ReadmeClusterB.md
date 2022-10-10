@@ -50,9 +50,11 @@ cd $HOME/OcpMulticlusterV1/ClusterB
 
 * First review all the variables in order to accommodate the installation to your infrastructure.
 
-    * vi /HOME/OcpMulticlusterV1/ClusterA/main.tf
-    * vi /HOME/OcpMulticlusterV1/ClusterA/terraform.tfvars
-    * vi /HOME/OcpMulticlusterV1/ClusterA/variables.tf
+```  
+vi /HOME/OcpMulticlusterV1/ClusterA/main.tf
+vi /HOME/OcpMulticlusterV1/ClusterA/terraform.tfvars
+vi /HOME/OcpMulticlusterV1/ClusterA/variables.tf
+```
 
 ```
 cd $HOME/OcpMulticlusterV1/ClusterB/clusters/4.11
@@ -60,7 +62,7 @@ terraform init
 terraform apply
 ```
 
-9. Install Openshift
+1. Install Openshift
    
 ```
 cd $HOME/OcpMulticlusterV1/ClusterB/openshift

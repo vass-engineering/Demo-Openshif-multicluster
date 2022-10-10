@@ -85,7 +85,11 @@ cd $HOME/OcpMulticlusterV1/ClusterA
 
 * First review all the variables in order to accommodate the installation to your infrastructure.
 
-
+```  
+vi /HOME/OcpMulticlusterV1/ClusterA/main.tf
+vi /HOME/OcpMulticlusterV1/ClusterA/terraform.tfvars
+vi /HOME/OcpMulticlusterV1/ClusterA/variables.tf
+```
 
 ```
 cd $HOME/OcpMulticlusterV1/ClusterA/clusters/4.11
