@@ -90,6 +90,7 @@ oc --kubeconfig openshift/auth/kubeconfig get csr -ojson | jq -r '.items[] | sel
 
 12.  Wait for installation completed.
 
+```
 DEBUG Cluster is initialized                       
 INFO Waiting up to 10m0s (until 1:37PM) for the openshift-console route to be created... 
 DEBUG Route found in openshift-console namespace: console 
@@ -102,5 +103,6 @@ INFO Login to the console with user: "kubeadmin", and password: "xxxxx"
 DEBUG Time elapsed per stage:                      
 DEBUG Cluster Operators: 22m34s                    
 INFO Time elapsed: 22m34s  
+```
 
 13. Shutdown Bootstrap virtual machine. And remember to comment/delete the entry in the HA-proxy or in your load balancer
