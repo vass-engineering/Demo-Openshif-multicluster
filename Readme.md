@@ -35,7 +35,6 @@ DEMO Openshift 4 Multicluster
      * Install Red Hat Advanced Cluster Management in the cluster OCPA.  
      * Add OCPB cluster as managed cluster.
      
-
 5. ReadmeSubmariner.md
   *  Set up Submariner in Red Hat Advanced Cluster Management for Kubernetes between both cluster
 
