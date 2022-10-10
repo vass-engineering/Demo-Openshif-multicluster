@@ -23,7 +23,7 @@ vi install-config.yaml
 sshKey: 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOJPehYsDsrmM+yK6hhPpoG6Rflh284s06tNA+XcPeVC labmulticluster@bastion.labs.vass.es'
 ```
 
-6. Download your installation pull secret from the Red Hat OpenShift Cluster Manager and added to install-config.yaml
+2. Download your installation pull secret from the Red Hat OpenShift Cluster Manager and added to install-config.yaml
 
 ```
 	The pull secret from the Red Hat OpenShift Cluster Manager. This pull secret allows you to authenticate with the services that are provided by the included authorities, including Quay.io, which serves the container images for OpenShift Container Platform components.
@@ -39,14 +39,14 @@ vi install-config.yaml
 pullSecret: '{"auths":{"cloud.openshift.com":{"auth":"b3...............
 ```
 
-7. Generate ignition files for instalation.
+3. Generate ignition files for instalation.
 
 ```
 cd $HOME/OcpMulticlusterV1/ClusterB
 ./generate-configs.sh 
 ```
 
-8. Generate in Vmware the VirtualMachines with terraform and add the ingnition files to the VMs.
+4. Generate in Vmware the VirtualMachines with terraform and add the ingnition files to the VMs.
 
 * First review all the variables in order to accommodate the installation to your infrastructure.
 
@@ -63,14 +63,14 @@ terraform init
 terraform apply
 ```
 
-1. Install Openshift
+5. Install Openshift
    
 ```
 cd $HOME/OcpMulticlusterV1/ClusterB/openshift
 openshift-install wait-for install-complete --log-level debug
 ```
 
-10. From another terminal Check installation process
+6. From another terminal Check installation process
 
 ```
 cd $HOME/OcpMulticlusterV1/ClusterB
@@ -80,7 +80,7 @@ oc --kubeconfig openshift/auth/kubeconfig get nodes
 oc --kubeconfig openshift/auth/kubeconfig get co
 ```
 
-11. During installation approve the csr
+7. During installation approve the csr
 
 ```
 cd $HOME/OcpMulticlusterV1/ClusterB
@@ -88,7 +88,7 @@ oc --kubeconfig openshift/auth/kubeconfig get csr
 oc --kubeconfig openshift/auth/kubeconfig get csr -ojson | jq -r '.items[] | select(.status == {} ) | .metadata.name' | xargs oc --kubeconfig openshift/auth/kubeconfig adm certificate approve
 ```
 
-12.  Wait for installation completed.
+8.  Wait for installation completed.
 
 ```
 DEBUG Cluster is initialized                       
@@ -105,4 +105,4 @@ DEBUG Cluster Operators: 22m34s
 INFO Time elapsed: 22m34s  
 ```
 
-13. Shutdown Bootstrap virtual machine. And remember to comment/delete the entry in the HA-proxy or in your load balancer
+9. Shutdown Bootstrap virtual machine. And remember to comment/delete the entry in the HA-proxy or in your load balancer
