@@ -50,12 +50,11 @@ This guilde will help you to:
 * https://docs.openshift.com/container-platform/4.11/installing/installing_bare_metal/installing-bare-metal.html
 * https://www.maquinasvirtuales.eu/vmware-crear-virtual-machine-con-terraform/
 * https://cloud.redhat.com/blog/set-up-an-istio-multicluster-service-mesh-with-submariner-in-red-hat-advanced-cluster-management-for-kubernetes
-* 
 
-## Next Steps to achive
+## Next Steps to achieve
 
 * Management observability:
   
-https://cloud.redhat.com/blog/how-your-grafana-can-fetch-metrics-from-red-hat-advanced-cluster-management-observability-observatorium-and-thanos
+  * https://cloud.redhat.com/blog/how-your-grafana-can-fetch-metrics-from-red-hat-advanced-cluster-management-observability-observatorium-and-thanos
 
 * PV Replication
