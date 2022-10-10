@@ -83,13 +83,17 @@ cd $HOME/OcpMulticlusterV1/ClusterA
 
 9. Generate in Vmware the VirtualMachines with terraform and add the ingnition files to the VMs.
 
+* First review all the variables in order to accommodate the installation to your infrastructure.
+
+
+
 ```
 cd $HOME/OcpMulticlusterV1/ClusterA/clusters/4.11
 terraform init
 terraform apply
 ```
 
-10. Install Openshift
+1.  Install Openshift
    
 ```
 cd $HOME/OcpMulticlusterV1/ClusterA/openshift 
