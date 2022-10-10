@@ -1,0 +1,4 @@
+vsphere-user: xxxxxxxxx
+vsphere-password: "xxxxxxxxx"
+vsphere-server: vcas7.labs.vass.es
+vsphere-dc: Datacenter.labs.vass.es
