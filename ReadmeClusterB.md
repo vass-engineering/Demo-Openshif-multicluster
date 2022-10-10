@@ -1,4 +1,4 @@
-1. Generate SSH KEY  and added to install-config.yaml
+1. Generate the SSH KEY  and added to install-config.yaml
 
 ```
     cd $HOME/OcpMulticlusterV1/ClusterB/sshKeys/
@@ -12,7 +12,7 @@ cat id_ed25519.pub
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOJPehYsDsrmM+yK6hhPpoG6Rflh284s06tNA+XcPeVC labmulticluster@bastion.labs.vass.es
 ```
 
- * add to install-config.yaml
+ * Add the ssh pub key to install-config.yaml file.
 
 ```
 cd $HOME/OcpMulticlusterV1/ClusterB
@@ -61,7 +61,7 @@ cd $HOME/OcpMulticlusterV1/ClusterB/openshift
 openshift-install wait-for install-complete --log-level debug
 ```
 
-10. Check installation process
+10. From another terminal Check installation process
 
 ```
 cd $HOME/OcpMulticlusterV1/ClusterB
@@ -94,3 +94,4 @@ DEBUG Time elapsed per stage:
 DEBUG Cluster Operators: 22m34s                    
 INFO Time elapsed: 22m34s  
 
+13. Shutdown Bootstrap virtual machine. And remember to comment/delete the entry in the HA-proxy or in your load balancer
