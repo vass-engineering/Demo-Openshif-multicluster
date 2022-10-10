@@ -31,10 +31,10 @@ DEMO Openshift 4 Multicluster
 
 4. ReadmeClusterManagement.md
 
-This guilde will help you to: 
-   * Install Red Hat Advanced Cluster Management in the cluster OCPA.  
-   *  Add OCPB cluster as managed cluster.
-   *  Set up Submariner in Red Hat Advanced Cluster Management for Kubernetes between both cluster
+   * This guilde will help you to: 
+     * Install Red Hat Advanced Cluster Management in the cluster OCPA.  
+     *  Add OCPB cluster as managed cluster.
+     *  Set up Submariner in Red Hat Advanced Cluster Management for Kubernetes between both cluster
 
 
 ## Notes
