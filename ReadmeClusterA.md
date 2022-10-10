@@ -99,7 +99,7 @@ terraform init
 terraform apply
 ```
 
-1.  Install Openshift
+10.  Install Openshift
    
 ```
 cd $HOME/OcpMulticlusterV1/ClusterA/openshift 
