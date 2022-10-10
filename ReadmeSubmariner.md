@@ -5,7 +5,7 @@
 ![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/AdvanceClusterMngK8sConsole.png)
 
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/1InstallSubmarineradd-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/imgSub/1InstallSubmarineradd-ons.png)
 
 
 
