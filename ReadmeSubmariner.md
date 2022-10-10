@@ -12,7 +12,7 @@
 * Select both cluster to install the submariner add-ons 
 
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/imgSub/2InstallSubmarineradd-ons-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/imgSub/2InstallSubmarineradd-ons.png)
 
 * Check configuration
 
