@@ -12,22 +12,22 @@
 * Select both cluster to install the submariner add-ons 
 
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/2InstallSubmarineradd-ons-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/imgSub/2InstallSubmarineradd-ons-ons.png)
 
 * Check configuration
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/3InstallSubmarineradd-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/imgSub/3InstallSubmarineradd-ons.png)
 
 * Review configuiration
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/4InstallSubmarineradd-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/imgSub/4InstallSubmarineradd-ons.png)
 
 
 * Wait for installation completed.
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/5InstallSubmarineradd-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/imgSub/5InstallSubmarineradd-ons.png)
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/6InstallSubmarineradd-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/imgSub/6InstallSubmarineradd-ons.png)
 
 
 2. Download and install submariner binary.

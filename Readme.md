@@ -11,9 +11,9 @@ DEMO Openshift 4 Multicluster
   * Set up Submariner in Red Hat Advanced Cluster Management for Kubernetes between both cluster
 
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/master/DocsImages/Architecture.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/Architecture.png)
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/master/DocsImages/Architecture2.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/Architecture2.png)
 
 ## Instructions order 
 
