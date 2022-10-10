@@ -25,7 +25,7 @@ DEMO Openshift 4 Multicluster
 
 * This guide will help you to install the Openshift  Cluster 4.11 OCPA using Terraform on VMware with UPI.
 
-3. ReadmeClusterA.md
+3. ReadmeClusterB.md
 
 * This guide wil help you to install the Openshift Cluster 4.11 OCPB using Terraform on VMware with UPI.
 
@@ -33,8 +33,11 @@ DEMO Openshift 4 Multicluster
 
    * This guilde will help you to: 
      * Install Red Hat Advanced Cluster Management in the cluster OCPA.  
-     *  Add OCPB cluster as managed cluster.
-     *  Set up Submariner in Red Hat Advanced Cluster Management for Kubernetes between both cluster
+     * Add OCPB cluster as managed cluster.
+     
+
+5. ReadmeSubmariner.md
+  *  Set up Submariner in Red Hat Advanced Cluster Management for Kubernetes between both cluster
 
 
 ## Notes
