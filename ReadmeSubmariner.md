@@ -2,32 +2,32 @@
 
 * Access to the console AdvanceClusterMngK8sConsole, and go to MulticlusterNetworking > Submariner add-ons.
   
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/master/DocsImages/AdvanceClusterMngK8sConsole.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/AdvanceClusterMngK8sConsole.png)
 
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/master/DocsImages/1InstallSubmarineradd-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/1InstallSubmarineradd-ons.png)
 
 
 
 * Select both cluster to install the submariner add-ons 
 
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/master/DocsImages/2InstallSubmarineradd-ons-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/2InstallSubmarineradd-ons-ons.png)
 
 * Check configuration
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/master/DocsImages/3InstallSubmarineradd-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/3InstallSubmarineradd-ons.png)
 
 * Review configuiration
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/master/DocsImages/4InstallSubmarineradd-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/4InstallSubmarineradd-ons.png)
 
 
 * Wait for installation completed.
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/master/DocsImages/5InstallSubmarineradd-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/5InstallSubmarineradd-ons.png)
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/master/DocsImages/6InstallSubmarineradd-ons.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/6InstallSubmarineradd-ons.png)
 
 
 2. Download and install submariner binary.

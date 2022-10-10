@@ -13,7 +13,6 @@ DEMO Openshift 4 Multicluster
 
 ![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/master/DocsImages/Architecture.png)
 
-
 ![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/master/DocsImages/Architecture2.png)
 
 ## Instructions order 

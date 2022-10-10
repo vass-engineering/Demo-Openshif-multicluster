@@ -88,7 +88,7 @@ DEBUG OpenShift console route is admitted
 INFO Install complete!                            
 INFO To access the cluster as the system:admin user when using 'oc', run 
 INFO     export KUBECONFIG=/home/labmulticluster/OcpMulticlusterV1/ClusterA/openshift/auth/kubeconfig 
-INFO Access the OpenShift web-console here: https://console-openshift-console.apps.ocpa.labs.vass.es 
+INFO Access the OpenShift web-console here: https://console-openshift-console.apps.ocpb.labs.vass.es 
 INFO Login to the console with user: "kubeadmin", and password: "xxxxx" 
 DEBUG Time elapsed per stage:                      
 DEBUG Cluster Operators: 22m34s                    
