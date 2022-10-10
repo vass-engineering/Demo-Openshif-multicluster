@@ -19,15 +19,15 @@ DEMO Openshift 4 Multicluster
 
 1. Requirements.md
 
-Before to proceded, you will need a loadbalancer and dns services. This Doc has some examples for HA-proxy and Bind DNS files configuration.
+* Before to proceded, you will need a loadbalancer and a dns services. This Doc has some examples for HA-proxy and Bind DNS bind files configuration.
 
 2. ReadmeClusterA.md
 
-This guide will help you to install the Openshift 4.11 Cluster OCPA using Terraform on VMware with UPI.
+* This guide will help you to install the Openshift  Cluster 4.11 OCPA using Terraform on VMware with UPI.
 
 3. ReadmeClusterA.md
 
-This guide wil help you to install the Openshift 4.11 Cluster OCPB using Terraform on VMware with UPI.
+* This guide wil help you to install the Openshift Cluster 4.11 OCPB using Terraform on VMware with UPI.
 
 4. ReadmeClusterManagement.md
 
@@ -39,7 +39,7 @@ This guilde will help you to:
 
 ## Notes
 
-The nodes distribution along VMWare servers is just for Demo proposal. In a production implementation  distribute the nodes of the clusters in order to achieve HA.
+* The nodes distribution along VMWare servers is just for Demo proposal. In a production implementation  distribute the nodes of the clusters in order to achieve HA.
 
 ## References
 
