@@ -91,6 +91,8 @@ vi /HOME/OcpMulticlusterV1/ClusterA/terraform.tfvars
 vi /HOME/OcpMulticlusterV1/ClusterA/variables.tf
 ```
 
+* Deploy with Terraform.
+
 ```
 cd $HOME/OcpMulticlusterV1/ClusterA/clusters/4.11
 terraform init
