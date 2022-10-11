@@ -60,3 +60,5 @@ DEMO Openshift 4 Multicluster
   * https://cloud.redhat.com/blog/how-your-grafana-can-fetch-metrics-from-red-hat-advanced-cluster-management-observability-observatorium-and-thanos
 
 * PV Replication
+  * https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/2.6/html-single/add-ons/index#volsync
+    * 1.2. VolSync persistent volume replication service
