@@ -19,7 +19,7 @@ DEMO Openshift 4 Multicluster
 
 1. Requirements.md
 
-* Before to proceded, you will need a loadbalancer and a dns services. This Doc has some examples for HA-proxy and Bind DNS bind files configuration.
+* Before to proceded, you will need a loadbalancer and a dns services. This Doc have some examples for HA-proxy and Bind DNS bind files configuration.
 
 2. ReadmeClusterA.md
 
