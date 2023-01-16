@@ -10,6 +10,8 @@
 
 * From VShpere Navigate to files, select a folder for templates, and select Deploy OVF Template using the next URL
 
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/DeployOVFTemplate.png)
+
 ```
 https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/rhcos-vmware.x86_64.ova
 ```
@@ -17,7 +19,7 @@ https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/rhcos-vmware.x8
 
 3. Convert the VM to a template ready for Terraform.
 
-![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/DeployOVFTemplate.png)
+![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/ConvertVmToTemplate.png)
 
 
 4. Add two VmWare pools. 
