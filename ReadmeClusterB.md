@@ -85,7 +85,7 @@ oc --kubeconfig openshift/auth/kubeconfig get co
 ```
 cd $HOME/OcpMulticlusterV1/ClusterB
 oc --kubeconfig openshift/auth/kubeconfig get csr
-oc --kubeconfig openshift/auth/kubeconfig get csr -ojson | jq -r '.items[] | select(.status == {} ) | .metadata.name' | xargs oc --kubeconfig openshift/auth/kubeconfig adm certificate approve
+oc --kubeconfig openshift/auth/kubeconfig get csr -o json | jq -r '.items[] | select(.status == {} ) | .metadata.name' | xargs oc --kubeconfig openshift/auth/kubeconfig adm certificate approve
 ```
 
 8.  Wait for installation completed.
