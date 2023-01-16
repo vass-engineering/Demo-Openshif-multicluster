@@ -13,11 +13,12 @@
 ![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/DeployOVFTemplate.png)
 
 ```
-https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/rhcos-vmware.x86_64.ova
+https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/latest/rhcos-4.11.9-x86_64-vmware.x86_64.ova
 ```
 
 
-3. Convert the VM to a template ready for Terraform.
+
+1. Convert the VM to a template ready for Terraform.
 
 ![alt text](https://github.com/vass-engineering/Demo-Openshif-multicluster/blob/main/DocsImages/ConvertVmToTemplate.png)
 
